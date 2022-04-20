@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+        <h3>Teste entradas incorretas</h3>
+        <form action="https://google.com/search" method="get"> <!--O Google fica somente como teste-->
+            <label for="j">Insira seu nome</label>
+            <br>
+            <input type="text" id="j" name="j" placeholder="Insira" required>
+            <br>
+            <label for="q">Insira seu e-mail</label>
+            <br>
+            <input type="email" id ="q" name="q" placeholder="Insira" required>
+            <br>
+            <label for="x">Insira uma idade entre 6 e 14</label>
+            <br>
+            <input type="number" id ="x" name="x" placeholder="Insira" min="6" max="14" required>
+            <br>
+            <input type="submit" value="Avançar">
+        </form>
+    </body>
+</html> 
