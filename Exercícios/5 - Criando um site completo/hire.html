@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SpaceX</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="media/logo.png" alt="Logo da SpaceX">
+                |
+                <a href="index.html">Home</a>
+                |
+                <a href="spaceships.html">The Spaceships</a>
+            </nav>
+            <hr>
+        </header>
+        
+        <section>
+            <h2>Hire Us Now</h2>
+            <p>Leave a message to request one of our services and we will get back to you as soon as possible.</p>
+        </section>
+        <br>
+        
+        <form>
+            <div>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+                <label for="email">- Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br><br>
+            <div>
+                <label for="spaceship">Spaceship: </label>
+                <select name="spaceship" id="spaceship">
+                    <option value="falcon9">Falcon 9</option>
+                    <option value="falcon_heavy">Falcon Heavy</option>
+                </select>
+                <label for="servico">Type of Service: </label>
+                <input type="search" name="servico" id="servico" list="serviceList">
+                <datalist id="serviceList">
+                    <option value="Lorem ipsum dolor"></option>
+                    <option value="Sit amet consectetur"></option>
+                    <option value="Adipisicing elit"></option>
+                    <option value="Nulla dolorem accusantium"></option>
+                </datalist>
+            </div>
+            <br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </body>
+</html>
